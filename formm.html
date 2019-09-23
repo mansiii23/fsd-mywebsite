@@ -1,0 +1,82 @@
+<!DOCTYPE>
+<html>
+<body>
+	<header>
+		<div class="row clearfix">
+		<img src="images/squaree.png" class="square1"></div>
+	</header>
+	<br><br><br>
+	<marquee direction="down"><h1 align="center" style="font-family: 'Georgia' ">REGISTER <br>
+	YOURSELVES</h1></marquee>
+<fieldset class="abc">
+	<form></br>
+		<b>FirstName<input type="text" class="form-control"></b></br>
+		<b>LastName<input type="text" class="form-control"></b></br>
+		<b>E-mailId<input type="alphanumeric" class="form-control"></b></br>
+		<b>Password<input type="password" class="form-control"></b></br>
+		<b>Mobile Number<input type="numeric" maxlength="10" class="form-control"></b></br>
+		<b>Recharge Amount<input type="numeric" class="form-control"></b></br>
+		<button type="submit" value="submit" id="submitt" align="center">SUBMIT</button>
+		<button type="submit" value="submit" align="center"><a href="index.html">HOME</a></button>
+	</form></fieldset</body></html><head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function()
+	{
+		$("button#submitt").click(function()
+		{
+			alert("Your Account Has Been Updated");
+		});
+	});</script>
+<style>
+	.abc
+{
+	position: absolute;
+	border: 3px solid black;
+	top: 30%;
+	left: 75%;
+	transform: translate(-25%,-25%);
+}
+
+	.form-control
+	 {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+ 
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: #eeeeee;
+  opacity: 1;
+}
+.form-control[disabled], fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("images/form.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	
+}	
+</style></head>
